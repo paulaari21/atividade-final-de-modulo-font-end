@@ -1,0 +1,81 @@
+/*INDEX.HTML SOBRE*/
+
+body {
+    margin: 0;
+    padding-left: 300px;
+    min-height: 100vh;
+}
+* {
+    box-sizing: border-box;
+}
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: rgb(218, 189, 245);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header nav {
+    display: grid;
+    text-align: center;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.imagem-usuario  {
+    height: 100px;
+    width: 100px;
+  border-radius: 150px;
+  border: solid rgb(141, 75, 141);
+  
+}
+
+.nav a {
+color: black;
+text-decoration: none;
+}
+
+main{
+    margin-left: 25px;
+   padding-top: 200px;
+}
+
+main h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.endereco {
+    font-style: italic;
+}
+.descricao {
+font-family: Arial;
+}
+
+.social a {
+padding-right: 20px;
+
+}
+
+.social img {
+    width: 25px; height: 25px;
+}
+
+/* CONHECIMENTOS.HTML*/
+.ol {
+    
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.ul {
+    font-family: Arial;
+}
